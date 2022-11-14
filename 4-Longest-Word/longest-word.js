@@ -1,9 +1,11 @@
 // 4. Find the Longest Word in a String
 
-// Write a function longestWord which takes a sentence and returns the length of the longest word. (Try to use a one-line arrow function if you can. :)
+// Write a function longestWord which takes a sentence and returns the length of the
+// longest word. (Try to use a one-line arrow function if you can. :)
 
 // Test case: 
-// longestWord('What if we try a super-long word such as otorhinolaryngology') should return 19
+// longestWord('What if we try a super-long word such as otorhinolaryngology') 
+// should return 19
 
 function longestWord(str) {
     let strSplit = str.split(' ');

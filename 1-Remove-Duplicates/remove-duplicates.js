@@ -60,45 +60,44 @@ console.log(result);
 // 4) for loop
 // const dups = [3,4,2,1,2,5,5,1,1,1,6];
 
-function uniqueArr(dups) {
-const result = [];
+// function uniqueArr(dups) {
+//   const result = [];
 
-for (const i of dups) {
-let noRepeat = true;
+//   for (const i of dups) {
+//     let noRepeat = true;
 
-for (const j of result) {
-  if (i === j) {
-    noRepeat = false;
-    break;
-  }
-}
-
-if (noRepeat) {
-  result.push(i);
-}
-}
-
-return result;
-}
-
-// 🎉  [ 1, 3, 2 ]
-console.log(uniqueArr(dups));
-
-// function getUnique(arr){
-
-//     let uniqueArr = [];
-
-//     // loop through array
-//     for(let i of arr) {
-//         if(uniqueArr.indexOf(i) === -1) {
-//             uniqueArr.push(i);
-//         }
+//     for (const j of result) {
+//       if (i === j) {
+//         noRepeat = false;
+//         break;
+//       }
 //     }
-//     console.log(uniqueArr);
+
+//   if (noRepeat) {
+//     result.push(i);
+//   }
 // }
+// return result;
+// }
+
+// // 🎉  [ 1, 3, 2 ]
+// console.log(uniqueArr(dups));
+
+function getUnique(arr){
+
+    let uniqueArr = [];
+
+    // loop through array
+    for(let i of arr) {
+        if(uniqueArr.indexOf(i) === -1) {
+            uniqueArr.push(i);
+        }
+    }
+    console.log(uniqueArr);
+}
 
 // const array = [1, 2, 3, 2, 3];
 
-// // calling the function
-// // passing array argument
-// getUnique(array);
+// calling the function
+// passing array argument
+getUnique(array);
