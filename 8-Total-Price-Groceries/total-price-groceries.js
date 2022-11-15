@@ -19,19 +19,26 @@ const groceries = [
   // 	for(let item of arr){
   // 		total +=(item["quantity"]*item["price"])
   // 	}
-  // 	return parseFloat(sol.toFixed(2));
+  // 	return parseFloat(total.toFixed(2));
   // }
   // console.log(getTotalPrice(groceries));
   
   // OR
   
-  function getTotalPrice(groceries) {
+  function getTotalPrice(arr) {
     let total = 0;
-    groceries.forEach((x) => {
-      total =  total + (x.price * x.quantity)
+    arr.forEach(item => {
+      total = total + (item.price * item.quantity);
     })
-    var result = parseFloat(total).toFixed( 2 );
-    return Number(result)
-  }
-  
+    let result = parseFloat(total).toFixed(2);
+    return Number(result);
+    };
+    
   console.log(getTotalPrice(groceries));
+
+
+// The toFixed() method converts a number to a string.
+// The toFixed() method rounds the string to a specified number of decimals.
+
+// The parseFloat function converts its first argument to a string, 
+// parses that string as a decimal number literal, then returns a number or NaN.
