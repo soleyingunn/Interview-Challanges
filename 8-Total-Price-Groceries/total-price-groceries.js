@@ -33,7 +33,7 @@ const groceries = [
     })
     let result = parseFloat(total).toFixed(2);
     return Number(result);
-    };
+    };""
     
   console.log(getTotalPrice(groceries));
 

@@ -1,6 +1,9 @@
 // 9. Most expensive item. (Objects)
 
-// Create a function mostExpensiveItem which, given an object of items (key: item, value: price) returns the most expensive item. Hint: you may want to use an Object.keys() or Object.entries() method combined with .sort() method for an elegant solution.
+// Create a function mostExpensiveItem which, given an object of items 
+// (key: item, value: price) returns the most expensive item. 
+// Hint: you may want to use an Object.keys() or Object.entries() method 
+// combined with .sort() method for an elegant solution.
 // Example/Test Case:
 const obj = {
     tv: 30,
