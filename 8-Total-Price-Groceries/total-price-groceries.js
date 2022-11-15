@@ -1,5 +1,6 @@
 // 8. Calculate the Total Price of Groceries. (Arrays and Objects)
-// Create a function that takes an array of objects (groceries) which calculates the total price and returns it as a number. A grocery object has a product, a quantity, and a price.
+// Create a function that takes an array of objects (groceries) which calculates the
+// total price and returns it as a number. A grocery object has a product, a quantity, and a price.
 // Test case:
 const groceries = [
     { product: "Milk", quantity: 1, price: 1.50 },
