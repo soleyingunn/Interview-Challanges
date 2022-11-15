@@ -13,7 +13,7 @@ const obj = {
   // mostExpensiveItem(obj) should return "stereo"
   
   const mostExpensiveItem = obj => {
-    const keyPairArr = Object.entries(obj);
+    const keyPairArr = Object.entries(ob);
     // console.log(keyPairArr);
     const prices = keyPairArr.map((item) => {
       const [first, second] = item;
@@ -21,7 +21,7 @@ const obj = {
     })
     let maxPrice = Math.max(...prices);
     // console.log(maxPrice);
-    let mostExpItem = Object.keys(obj).find(key => obj[key] === maxPrice);
+    let mostExpItem = Object.keys(ob).find(key => ob[key] === maxPrice);
     // console.log(mostExpItem);
     return mostExpItem;
   };
