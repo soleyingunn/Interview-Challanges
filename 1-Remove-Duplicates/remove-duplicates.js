@@ -33,13 +33,12 @@ console.log(removeDups);
 
 // 3) reduce
 function removeDuplicates(arr) {
-let unique = arr.reduce(function (acc, curr) {
-if (!acc.includes(curr)){
-  acc.push(curr);      
-}
-return acc;
-}, []);
-
+    let unique = arr.reduce(function (acc, curr) {
+        if (!acc.includes(curr)){
+            acc.push(curr);      
+        }
+    return acc;
+    }, []);
 return unique;
 }
 
